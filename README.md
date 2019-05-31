@@ -41,14 +41,17 @@ You should be able to query a stock on Postman.
 Your job will be to implement the following:
 
 1. A Header component
-1. A StockList component
 1. A Stock component
+
+You can do your API call inside of the App components, and passing your stocks as props to the Stock component.
 
 **Required**
 - Your app should resemble the mockup as closely as possible - that means styling, fonts, and colors.
 - This project will assess you CSS and Flexbox knowledge.
 
 **Tips:**
+- Store the tickers in state, loop through the tickers and make an API call for each ticker
+- Use map inside of the Stock component to render each stock
 - Use [Postman](https://www.getpostman.com)
 
 **Bonus**
