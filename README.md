@@ -50,6 +50,7 @@ You can do your API call inside of the App components, and passing your stocks a
 - This project will assess you CSS and Flexbox knowledge.
 
 **Tips:**
+- Don't forget to `npm install axios`
 - Store the tickers in state, loop through the tickers and make an API call for each ticker
 - Use map inside of the Stock component to render each stock
 - Use [Postman](https://www.getpostman.com)
