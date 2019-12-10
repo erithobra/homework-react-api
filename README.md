@@ -1,9 +1,9 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  SOFTWARE ENGINEERING IMMERSIVE
 
 1. Fork
-1. Feature
-1. Clone
-1. Pull Request
+2. Clone
+3. Follow Instructions Closely
+4. Submit Pull Request
 
 ![React](https://www.import.io/wp-content/uploads/2017/10/React-logo-1.png)
 
