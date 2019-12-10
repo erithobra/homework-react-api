@@ -55,6 +55,5 @@ You can do your API call inside of the Stocks component
 - Use map inside of the Stock component to render each stock
 
 **Bonus**
-- Build Search
 - Add the ability to save a stock, and when a user navigates to their profile page the saved stocks should appear (this will refresh each time you save in your ide since we haven't set up a server yet, but it will get you ready for when you do! (hint: this involves react-router-dom)
-
+- Build Search
