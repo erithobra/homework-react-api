@@ -27,7 +27,7 @@ npm start
 ```
 **This will be a mobile-first project.**
 
-This project will use the https://iexcloud.io API to grab stock data. Please signup on the website and grab your API secret/token.
+This project will use the https://iexcloud.io API to grab stock data. Please signup on the website and grab your API secret/token: https://iexcloud.io/cloud-login#/register
 
 The API URL you will construct will look something like this (**with your key**): https://cloud.iexapis.com/stable/stock/fb/quote?token=sk_63cb8aca56dc4f5687425f679a6b62d2
 
