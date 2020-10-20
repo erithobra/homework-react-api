@@ -47,7 +47,7 @@ You can do your API call inside of the Stocks component
 
 **Required**
 - Your app should resemble the mockup as closely as possible - that means styling, fonts, and colors.
-- This project will assess you CSS and Flexbox knowledge.
+- This project will assess your CSS and Flexbox knowledge.
 
 **Tips:**
 - Don't forget to `npm install axios`
@@ -55,5 +55,5 @@ You can do your API call inside of the Stocks component
 - Use map inside of the Stock component to render each stock
 
 **Bonus**
-- Add the ability to save a stock, and when a user navigates to their profile page the saved stocks should appear (this will refresh each time you save in your ide since we haven't set up a server yet, but it will get you ready for when you do! (hint: this involves react-router-dom)
+- Add the ability to save a stock, and when a user navigates to their profile page the saved stocks should appear (this will refresh each time you save in your IDE since we haven't set up a server yet, but it will get you ready for when you do! (hint: this involves react-router-dom)
 - Build Search
