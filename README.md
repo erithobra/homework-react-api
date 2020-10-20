@@ -40,8 +40,8 @@ You should be able to query a stock on Postman.
 
 Your job will be to implement the following:
 
-1. A Header component
-1. A Stocks component
+1. A `Header` component
+1. A `Stocks` component
 
 You can do your API call inside of the Stocks component
 
@@ -52,7 +52,7 @@ You can do your API call inside of the Stocks component
 **Tips:**
 - Don't forget to `npm install axios`
 - Store the tickers in `state`, loop through the tickers and make an API call for each ticker
-- Use map inside of the `Stock` component to render each stock
+- Use map inside of the `Stocks` component to render each stock
 
 **Bonus**
 - Add the ability to save a stock, and when a user navigates to their profile page the saved stocks should appear (this will refresh each time you save in your IDE since we haven't set up a server yet, but it will get you ready for when you do! (hint: this involves react-router-dom)
