@@ -33,11 +33,6 @@ The API URL you will construct will look something like this (**with your key**)
 
 > Remember to use your own token/secret
 
-![](postman.png)
-
-Test your API URL on [Postman](https://www.getpostman.com).
-You should be able to query a stock on Postman.
-
 Your job will be to implement the following:
 
 1. A `Header` component
