@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 header {
   background-color: rgba(35, 35, 35, 1);
   color: white;
@@ -12,6 +16,35 @@ header {
 .tickerDisplay {
   background-color: black;
   padding: 5px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+input {
+  background-color: rgba(35, 35, 35, 1);
+  color: white;
+  font-size: 16pt;
+  border-radius: 7px;
+  width: 90%;
+  height: 50px;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+::placeholder {
+  color: lightgray;
 }
 
 .stockDiv {
@@ -37,18 +70,16 @@ header {
 
 .priceAndPercentDiv {
   position: relative;
-  border: solid blue 2px;
   width:fit-content;
 }
 
 .latestPrice {
-  background-color: gray;
   color: white;
   font-size: 11pt;
   display: flex;
   position: absolute;
     top: 0px;
-    right: 0px;
+    right: 5px;
 
 }
 
@@ -58,8 +89,20 @@ header {
   position: absolute;
   right: 0px;
   bottom: 0px;
+  border-radius: 4px;
+  padding: 2px 0px 2px 0px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#positiveChange {
+  background-color: limegreen;
+}
 
+#negativeChange {
+  background-color: firebrick;
 }
 
 .App {

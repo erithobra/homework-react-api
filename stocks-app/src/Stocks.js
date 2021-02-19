@@ -33,14 +33,24 @@ class Stocks extends Component {
                 <div className="companyName">{stock.companyName}</div>
               </div>
               <div className="priceAndPercentDiv">
-                <div className="latestPrice">{stock.latestPrice}</div>
-                <div className="changePercent">{(Math.round(stock.changePercent * 10000) / 100).toFixed(2)}</div>
+                <div className="latestPrice">{(Math.round(
+                  stock.latestPrice * 100) / 100).toFixed(2)}
+                </div>
+                <div className="changePercent" 
+                  id={stock.changePercent >= 0 ? "positiveChange" : "negativeChange"}>
+                  {`${stock.changePercent >= 0 ? "+" : ""}${(Math.round(
+                    stock.changePercent * 10000) / 100
+                  ).toFixed(2)}${"%"}`}
+                </div>
               </div>
             </div>
           ))
         :
           console.log("apiDataLoaded = false")
         }
+        <div className="searchBar">
+          <input type="text" placeholder="Search"></input>
+        </div>
       </div>
     )
   }
