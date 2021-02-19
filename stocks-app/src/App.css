@@ -1,12 +1,65 @@
 header {
-  background-color: rgba(37, 35, 37, 1);
+  background-color: rgba(35, 35, 35, 1);
   color: white;
   height: 50px;
   display: flex;
   align-items: center;
   padding: 0px 0px 0px 10px;
-  font-size: x-large;
+  font-size: 20pt;
   font-weight: 700;
+}
+
+.tickerDisplay {
+  background-color: black;
+  padding: 5px;
+}
+
+.stockDiv {
+  border: solid 2px rgba(70, 70, 70, 1);
+  margin: 5px;
+  padding: 10px 20px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.symbol {
+  color: white;
+  font-size: 16pt;
+  font-weight: 600;
+}
+
+.companyName {
+  color: rgba(70, 70, 70, 1);
+  font-weight: 500;
+  font-size: 9pt;
+}
+
+.priceAndPercentDiv {
+  position: relative;
+  border: solid blue 2px;
+  width:fit-content;
+}
+
+.latestPrice {
+  background-color: gray;
+  color: white;
+  font-size: 11pt;
+  display: flex;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.changePercent {
+  color: white;
+  font-size: 11pt;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+
+
 }
 
 .App {
