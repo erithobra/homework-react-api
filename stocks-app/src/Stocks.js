@@ -46,7 +46,7 @@ class Stocks extends Component {
             </div>
           ))
         :
-          console.log("apiDataLoaded = false")
+          <div className="symbol">Loading Data...</div>
         }
         <div className="searchBar">
           <input type="text" placeholder="Search"></input>
